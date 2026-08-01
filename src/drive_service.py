@@ -12,3 +12,26 @@ def get_drive_service():
     )
 
     return service
+
+def list_root_folders(service):
+
+    results = service.files().list(
+        q="mimeType='application/vnd.google-apps.folder' and 'root' in parents",
+        pageSize=20,
+        fields="files(id, name)"
+    ).execute()
+
+    return results.get("files", [])
+
+def list_images(service, folder_id):
+    query = (
+    f"'{folder_id}' in parents "
+    "and mimeType contains 'image/' "
+    "and trashed = false"
+    )
+    results = service.files().list(
+            q=query,
+            pageSize=50,
+            fields="files(id, name)"
+        ).execute()
+    return results.get("files", [])
