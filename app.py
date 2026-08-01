@@ -4,7 +4,8 @@ from src.drive_service import list_images
 from src.drive_service import list_shared_folders
 from src.image_loader import download_image
 import cv2
-
+from src.blur_detector import detect_blur
+import time
 
 def main():
     print("============================\nAI Event Photo Finder\n============================")
@@ -29,18 +30,30 @@ def main():
     folder_id=folder["id"]
 
     images= list_images(service, folder_id)
-    for index, image in enumerate(images, start=1):
-            print(index,".", image["name"])
 
-    
-    image = download_image(service, images[0]["id"])
+    for image_info in images:
 
-    print(type(image))
-    print(image.shape)
-    cv2.imshow("Downloaded Image", image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
-    
+        download_start = time.time()
+
+        image = download_image(
+            service,
+            image_info["id"]
+        )
+
+        download_end = time.time()
+
+        blur_start = time.time()
+
+        score = detect_blur(image)
+
+        blur_end = time.time()
+
+        print(f"{image_info['name']}")
+        print(f"Blur Score : {score:.2f}")
+        print(f"Download   : {download_end - download_start:.2f} sec")
+        print(f"Detection  : {blur_end - blur_start:.4f} sec")
+        print("-" * 40)
+        
 
 
 
