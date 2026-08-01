@@ -2,6 +2,9 @@ from src.drive_service import get_drive_service
 from src.drive_service import list_root_folders
 from src.drive_service import list_images
 from src.drive_service import list_shared_folders
+from src.image_loader import download_image
+import cv2
+
 
 def main():
     print("============================\nAI Event Photo Finder\n============================")
@@ -28,6 +31,16 @@ def main():
     images= list_images(service, folder_id)
     for index, image in enumerate(images, start=1):
             print(index,".", image["name"])
+
+    
+    image = download_image(service, images[0]["id"])
+
+    print(type(image))
+    print(image.shape)
+    cv2.imshow("Downloaded Image", image)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+    
 
 
 
