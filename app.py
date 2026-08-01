@@ -6,6 +6,8 @@ from src.image_loader import download_image
 import cv2
 from src.blur_detector import detect_blur
 import time
+from src.duplicate_detector import average_hash
+from src.duplicate_detector import compare_hashes
 
 def main():
     print("============================\nAI Event Photo Finder\n============================")
@@ -31,28 +33,18 @@ def main():
 
     images= list_images(service, folder_id)
 
-    for image_info in images:
+    image1 = download_image(service, images[0]["id"])
+    image2 = download_image(service, images[0]["id"])
 
-        download_start = time.time()
+    hash1 = average_hash(image1)
+    hash2 = average_hash(image2)
 
-        image = download_image(
-            service,
-            image_info["id"]
-        )
+    difference = compare_hashes(
+    hash1,
+    hash2
+    )
 
-        download_end = time.time()
-
-        blur_start = time.time()
-
-        score = detect_blur(image)
-
-        blur_end = time.time()
-
-        print(f"{image_info['name']}")
-        print(f"Blur Score : {score:.2f}")
-        print(f"Download   : {download_end - download_start:.2f} sec")
-        print(f"Detection  : {blur_end - blur_start:.4f} sec")
-        print("-" * 40)
+    print(difference)
         
 
 
