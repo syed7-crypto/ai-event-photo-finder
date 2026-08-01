@@ -23,6 +23,16 @@ def list_root_folders(service):
 
     return results.get("files", [])
 
+def list_shared_folders(service):
+    
+    results = service.files().list(
+        q="sharedWithMe and mimeType='application/vnd.google-apps.folder' and trashed=false",
+        pageSize=20,
+        fields="files(id, name)"
+    ).execute()
+
+    return results.get("files", [])
+
 def list_images(service, folder_id):
     query = (
     f"'{folder_id}' in parents "
@@ -32,6 +42,6 @@ def list_images(service, folder_id):
     results = service.files().list(
             q=query,
             pageSize=50,
-            fields="files(id, name)"
+            fields="files(id, name, mimeType)"
         ).execute()
     return results.get("files", [])
