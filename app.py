@@ -7,14 +7,15 @@ def main():
     print("Connected successfully!")
 
     results = service.files().list(
-        pageSize=10,
-        fields="files(id, name)"
+    q="mimeType='application/vnd.google-apps.folder' and 'root' in parents",
+    pageSize=20,
+    fields="files(id, name)"
     ).execute()
 
     files = results.get("files", [])
 
-    for file in files:
-        print(file["name"])
+    for index, file in enumerate(files, start=1):
+        print(index, file["name"])
 
 
 if __name__ == "__main__":
