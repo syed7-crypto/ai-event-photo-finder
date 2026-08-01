@@ -41,7 +41,7 @@ def list_images(service, folder_id):
     )
     results = service.files().list(
             q=query,
-            pageSize=50,
+            pageSize=10,
             fields="files(id, name, mimeType)"
         ).execute()
     return results.get("files", [])

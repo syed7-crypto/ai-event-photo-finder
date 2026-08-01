@@ -3,11 +3,9 @@ from src.drive_service import list_root_folders
 from src.drive_service import list_images
 from src.drive_service import list_shared_folders
 from src.image_loader import download_image
+from src.quality_ranker import analyze_image
 import cv2
-from src.blur_detector import detect_blur
 import time
-from src.duplicate_detector import average_hash
-from src.duplicate_detector import compare_hashes
 
 def main():
     print("============================\nAI Event Photo Finder\n============================")
@@ -32,20 +30,40 @@ def main():
     folder_id=folder["id"]
 
     images= list_images(service, folder_id)
-
-    image1 = download_image(service, images[0]["id"])
-    image2 = download_image(service, images[0]["id"])
-
-    hash1 = average_hash(image1)
-    hash2 = average_hash(image2)
-
-    difference = compare_hashes(
-    hash1,
-    hash2
-    )
-
-    print(difference)
+    results = []
         
+    print(f"Total images: {len(images)}")
+
+    for image_info in images:
+
+        print("Processing:", image_info["name"])
+
+        if image_info["name"].lower().endswith(".dng"):
+            print(f"Skipping {image_info['name']} (RAW image)")
+            continue
+
+        image = download_image(
+            service,
+            image_info["id"]
+        )
+
+        print("Downloaded")
+
+        if image is None:
+            print(f"Skipping {image_info['name']} (Unsupported format)")
+            continue
+
+        result = analyze_image(
+            image,
+            image_info
+        )
+
+        print("Analyzed:", result["name"])
+
+        results.append(result)
+
+    print("Finished")
+    print("Results:", len(results))
 
 
 

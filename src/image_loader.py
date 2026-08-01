@@ -38,4 +38,7 @@ def download_image(service, file_id):
         cv2.IMREAD_COLOR
     )
 
+    if image is None:
+        return None
+
     return image
