@@ -27,7 +27,7 @@ def main():
     folder_id=folder["id"]
     folder_name=folder["name"]
 
-    analysis = load_analysis(folder["id"])
+    analysis = load_analysis(folder_id)
 
     if analysis is None:
         results = analyze_folder(service, folder_id)
@@ -37,12 +37,16 @@ def main():
     else:
         print("1. Load")
         print("2. Re-analyze")
-
+        choice = int(input("Choose: "))
         if choice == 1:
             results = analysis["images"]
+            print("Loaded cached analysis.")
+            print("Results:", len(results))
         else:
             results = analyze_folder(service, folder_id)
             save_analysis(folder_name,folder_id,results)
             print("Analysis saved successfully!")
 
         
+if __name__ == "__main__":
+    main()

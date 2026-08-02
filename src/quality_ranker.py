@@ -2,6 +2,7 @@ from src.duplicate_detector import average_hash
 from src.blur_detector import detect_blur
 from src.image_loader import download_image
 from src.drive_service import list_images
+from src.thumbnail_loader import download_thumbnail
 
 def analyze_image(image, image_info):
 
@@ -29,10 +30,7 @@ def analyze_folder(service, folder_id):
             print(f"Skipping {image_info['name']} (RAW image)")
             continue
 
-        image = download_image(
-            service,
-            image_info["id"]
-        )
+        image = download_thumbnail(image_info)
 
         if image is None:
             print(f"Skipping {image_info['name']} (Unsupported format)")
