@@ -3,6 +3,7 @@ from src.drive_service import list_root_folders
 from src.drive_service import list_shared_folders
 from src.quality_ranker import analyze_folder
 from src.analysis_storage import save_analysis, load_analysis
+from src.candidate_selector import *
 
 def main():
     print("============================\nAI Event Photo Finder\n============================")
@@ -35,6 +36,8 @@ def main():
         print("Analysis saved successfully!")
 
     else:
+        if analysis["images"]:
+            print(type(analysis["images"][0]["hash"]))
         print("1. Load")
         print("2. Re-analyze")
         choice = int(input("Choose: "))
@@ -47,6 +50,21 @@ def main():
             save_analysis(folder_name,folder_id,results)
             print("Analysis saved successfully!")
 
+    candidates = select_candidates(results)
+    groups = group_duplicates(candidates)
+    best_images = keep_sharpest(groups)
+    print("\nAnalysis Summary")
+    print("----------------")
+    print("Total images      :", len(results))
+    print("After blur filter :", len(candidates))
+    print("Duplicate groups  :", len(groups))
+    print("Best images       :", len(best_images))
+
+    print("\nSelected Images")
+    print("----------------")
+
+    for image in best_images:
+        print(image["name"], "-", image["blur_score"])
         
 if __name__ == "__main__":
     main()

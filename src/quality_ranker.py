@@ -10,7 +10,7 @@ def analyze_image(image, image_info):
         "id": image_info["id"],
         "name": image_info["name"],
         "blur_score": detect_blur(image),
-        "hash": average_hash(image).tolist()
+        "hash": average_hash(image)
     }
 
     return analysis
@@ -23,8 +23,6 @@ def analyze_folder(service, folder_id):
     print(f"Total images: {len(images)}")
 
     for image_info in images:
-
-        print("Processing:", image_info["name"])
 
         if image_info["name"].lower().endswith(".dng"):
             print(f"Skipping {image_info['name']} (RAW image)")
