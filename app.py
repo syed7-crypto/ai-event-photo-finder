@@ -1,12 +1,8 @@
 from src.drive_service import get_drive_service
 from src.drive_service import list_root_folders
-from src.drive_service import list_images
 from src.drive_service import list_shared_folders
-from src.image_loader import download_image
-from src.quality_ranker import analyze_image
-from src.analysis_storage import save_analysis
-import cv2
-import time
+from src.quality_ranker import analyze_folder
+from src.analysis_storage import save_analysis, load_analysis
 
 def main():
     print("============================\nAI Event Photo Finder\n============================")
@@ -29,44 +25,24 @@ def main():
 
     folder = folders[choice - 1]
     folder_id=folder["id"]
+    folder_name=folder["name"]
 
-    images= list_images(service, folder_id)
-    results = []
+    analysis = load_analysis(folder["id"])
+
+    if analysis is None:
+        results = analyze_folder(service, folder_id)
+        save_analysis(folder_name,folder_id,results)
+        print("Analysis saved successfully!")
+
+    else:
+        print("1. Load")
+        print("2. Re-analyze")
+
+        if choice == 1:
+            results = analysis["images"]
+        else:
+            results = analyze_folder(service, folder_id)
+            save_analysis(folder_name,folder_id,results)
+            print("Analysis saved successfully!")
+
         
-    print(f"Total images: {len(images)}")
-
-    for image_info in images:
-
-        print("Processing:", image_info["name"])
-
-        if image_info["name"].lower().endswith(".dng"):
-            print(f"Skipping {image_info['name']} (RAW image)")
-            continue
-
-        image = download_image(
-            service,
-            image_info["id"]
-        )
-
-        if image is None:
-            print(f"Skipping {image_info['name']} (Unsupported format)")
-            continue
-
-        result = analyze_image(
-            image,
-            image_info
-        )
-
-        print("Analyzed:", result["name"])
-
-        results.append(result)
-
-    print("Finished")
-    print("Results:", len(results))
-    save_analysis(
-    folder["name"],
-    folder["id"],
-    results
-    )
-
-    print("Analysis saved successfully!")

@@ -15,4 +15,17 @@ def save_analysis(folder_name, folder_id, results):
 
     with open(file_path, "w") as file:
         json.dump(data, file, indent=4)
+
+
+def load_analysis(folder_id):
+
+    file_path = f"analysis/{folder_id}.json"
+
+    if not os.path.exists(file_path):
+        return None
+
+    with open(file_path, "r") as file:
+        data = json.load(file)
+
+    return data
     
