@@ -4,6 +4,7 @@ from src.drive_service import list_images
 from src.drive_service import list_shared_folders
 from src.image_loader import download_image
 from src.quality_ranker import analyze_image
+from src.analysis_storage import save_analysis
 import cv2
 import time
 
@@ -47,8 +48,6 @@ def main():
             image_info["id"]
         )
 
-        print("Downloaded")
-
         if image is None:
             print(f"Skipping {image_info['name']} (Unsupported format)")
             continue
@@ -64,9 +63,10 @@ def main():
 
     print("Finished")
     print("Results:", len(results))
+    save_analysis(
+    folder["name"],
+    folder["id"],
+    results
+    )
 
-
-
-
-if __name__ == "__main__":
-    main()
+    print("Analysis saved successfully!")
