@@ -15,6 +15,8 @@ from src.candidate_selector import (
     keep_sharpest
 )
 
+from src.selection_storage import save_selection
+
 
 def clear():
     os.system("cls" if os.name == "nt" else "clear")
@@ -138,11 +140,12 @@ def main():
     print(f"Duplicate Groups  : {len(groups)}")
     print(f"Best Images       : {len(best_images)}")
 
-    print("\nSelected Images")
-    print("----------------")
-
-    for image in best_images:
-        print(image["name"])
+    save_selection(
+    folder_name,
+    folder_id,
+    best_images
+    )
+    print("\nSelection saved successfully.")
 
 
 if __name__ == "__main__":
