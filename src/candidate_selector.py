@@ -24,14 +24,6 @@ def group_duplicates(candidates):
                 image["hash"],
                 candidates[j]["hash"]
             )
-            if distance <= 10:
-                print(
-                    image["name"],
-                    "<->",
-                    candidates[j]["name"],
-                    "=",
-                    distance
-                )
             if distance <= HASH_THRESHOLD:
                 group.append(candidates[j])
                 used.add(j)
