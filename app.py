@@ -131,6 +131,8 @@ def main():
 
     best_images = keep_sharpest(groups)
 
+    clear()
+
     print("============================")
     print("Analysis Summary")
     print("============================\n")

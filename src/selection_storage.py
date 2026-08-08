@@ -3,7 +3,6 @@ import json
 
 
 def save_selection(folder_name, folder_id, best_images):
-
     os.makedirs("selected", exist_ok=True)
 
     file_path = f"selected/{folder_id}.json"
@@ -11,14 +10,14 @@ def save_selection(folder_name, folder_id, best_images):
     images = []
 
     for image in best_images:
-
-        selected_image = {
+        image = {
             "id": image["id"],
             "name": image["name"],
-            "blur_score": image["blur_score"]
+            "blur_score": image["blur_score"],
+            "face_count": image["face_count"]
         }
 
-        images.append(selected_image)
+        images.append(image)
 
     data = {
         "folder_name": folder_name,

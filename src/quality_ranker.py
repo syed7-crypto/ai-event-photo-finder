@@ -3,6 +3,7 @@ from src.blur_detector import detect_blur
 from src.image_loader import download_image
 from src.drive_service import list_images
 from src.thumbnail_loader import download_thumbnail
+from src.face_detector import detect_faces
 
 def analyze_image(image, image_info):
 
@@ -10,7 +11,8 @@ def analyze_image(image, image_info):
         "id": image_info["id"],
         "name": image_info["name"],
         "blur_score": detect_blur(image),
-        "hash": average_hash(image)
+        "hash": average_hash(image),
+        "face_count": detect_faces(image)
     }
 
     return analysis

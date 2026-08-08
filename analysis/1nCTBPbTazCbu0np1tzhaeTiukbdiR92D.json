@@ -71,7 +71,8 @@
                 true,
                 false,
                 false
-            ]
+            ],
+            "face_count": 2
         },
         {
             "id": "1ZrR2jPilLpV7Kif-SGAn21saaLd7nQx2",
@@ -142,7 +143,8 @@
                 true,
                 false,
                 false
-            ]
+            ],
+            "face_count": 2
         },
         {
             "id": "1JJsx50MwVMbK4jhKaU3ZJoU7r7NzepDX",
@@ -213,7 +215,8 @@
                 true,
                 false,
                 true
-            ]
+            ],
+            "face_count": 1
         },
         {
             "id": "1_1Cjhs8l5zlgN0ZRtfkUFPPh8kQ2fsD2",
@@ -284,7 +287,8 @@
                 false,
                 false,
                 true
-            ]
+            ],
+            "face_count": 3
         },
         {
             "id": "1OZ713En9dDezuAzw0kl95qY5DSTYS4A5",
@@ -355,7 +359,8 @@
                 false,
                 false,
                 true
-            ]
+            ],
+            "face_count": 4
         },
         {
             "id": "1s-zDpyi2dBE2S9q937w48Pv31o2bQBI9",
@@ -426,7 +431,8 @@
                 false,
                 false,
                 false
-            ]
+            ],
+            "face_count": 4
         },
         {
             "id": "1pJP17biMduWq3gA7SW1yE3JUPEbzAMMH",
@@ -497,7 +503,8 @@
                 false,
                 true,
                 true
-            ]
+            ],
+            "face_count": 5
         },
         {
             "id": "11EIihbfogzgR71lbM5NYNW5cxLNOiCy0",
@@ -568,7 +575,8 @@
                 false,
                 true,
                 true
-            ]
+            ],
+            "face_count": 5
         },
         {
             "id": "1ttlZr2mKLRhmFBDGEcWFbvP8ElV__OaZ",
@@ -639,7 +647,8 @@
                 true,
                 false,
                 false
-            ]
+            ],
+            "face_count": 3
         },
         {
             "id": "1ycsoGouYWpSTpL1lI5692D3QXkeRmt6j",
@@ -710,7 +719,8 @@
                 true,
                 false,
                 true
-            ]
+            ],
+            "face_count": 4
         },
         {
             "id": "10vVOsGS9BLurugtCS1b1UNTZ3oYVP6mN",
@@ -781,7 +791,8 @@
                 false,
                 false,
                 true
-            ]
+            ],
+            "face_count": 4
         },
         {
             "id": "1ghsAxTIjKqKA7QKxFHHO5YUJJfSlwneg",
@@ -852,7 +863,8 @@
                 false,
                 false,
                 false
-            ]
+            ],
+            "face_count": 5
         },
         {
             "id": "1gDoQY2UuIKEm7JR2MTvYbzlzGfzqpbL6",
@@ -923,7 +935,8 @@
                 true,
                 true,
                 false
-            ]
+            ],
+            "face_count": 3
         },
         {
             "id": "1EVu8t2_gonNo_01Fqq8X6OCD8FhjiERF",
@@ -994,7 +1007,8 @@
                 true,
                 true,
                 false
-            ]
+            ],
+            "face_count": 3
         },
         {
             "id": "1Si0lDQ4t2G-Hjb_C4LZry5cs0OmJpbT5",
@@ -1065,7 +1079,8 @@
                 false,
                 false,
                 false
-            ]
+            ],
+            "face_count": 7
         },
         {
             "id": "1CRhXsi4x5z0PgnRBhJxRw_v82v0EqIhY",
@@ -1136,7 +1151,8 @@
                 false,
                 false,
                 false
-            ]
+            ],
+            "face_count": 6
         },
         {
             "id": "1pw9c5t_WLyLWtQB_eL5zBXkHKZKpfnaU",
@@ -1207,7 +1223,8 @@
                 true,
                 false,
                 false
-            ]
+            ],
+            "face_count": 3
         },
         {
             "id": "11qeraDo14dM4zHFz4EMDjmE8Zors_kh6",
@@ -1278,7 +1295,8 @@
                 true,
                 false,
                 false
-            ]
+            ],
+            "face_count": 4
         },
         {
             "id": "1mfAmbu-wLzPYIL6zSxXz8CqWEpZ5O62t",
@@ -1349,7 +1367,8 @@
                 false,
                 true,
                 true
-            ]
+            ],
+            "face_count": 3
         },
         {
             "id": "1dfpJWmK0bqDO2BZkRmq3eEgpXf3onZQJ",
@@ -1420,7 +1439,8 @@
                 false,
                 false,
                 true
-            ]
+            ],
+            "face_count": 6
         },
         {
             "id": "1qTspQ8a3IVPbkfK-QWqsS-oyl68bKQks",
@@ -1491,7 +1511,8 @@
                 false,
                 false,
                 true
-            ]
+            ],
+            "face_count": 4
         },
         {
             "id": "1a0fQbtBnV03vRVnvsWfUI_1KKNXE6UNx",
@@ -1562,7 +1583,8 @@
                 true,
                 true,
                 true
-            ]
+            ],
+            "face_count": 5
         },
         {
             "id": "14hlMrtlD9JG9oI-cDGcFCvy-PzpD-u_a",
@@ -1633,7 +1655,8 @@
                 true,
                 true,
                 true
-            ]
+            ],
+            "face_count": 3
         },
         {
             "id": "10GcDWeKfoaWeel2EwVnRs00Bxrewmxs7",
@@ -1704,7 +1727,8 @@
                 true,
                 true,
                 false
-            ]
+            ],
+            "face_count": 6
         },
         {
             "id": "1swGvmEHBeKs9OIryCNYZIm9hZBNM4LMs",
@@ -1775,7 +1799,8 @@
                 true,
                 false,
                 true
-            ]
+            ],
+            "face_count": 3
         },
         {
             "id": "1iI-0_YYikhTe7RYFXwEL7qE12OHLcZPu",
@@ -1846,7 +1871,8 @@
                 false,
                 true,
                 false
-            ]
+            ],
+            "face_count": 5
         },
         {
             "id": "1JJmwzKM7Jzak8-fsvIPgwyGt8yfGLo-g",
@@ -1917,7 +1943,8 @@
                 false,
                 false,
                 false
-            ]
+            ],
+            "face_count": 3
         },
         {
             "id": "1z6Q1_Y-R7vfRbGNREBc_Onez6Yd1SiJX",
@@ -1988,7 +2015,8 @@
                 false,
                 false,
                 true
-            ]
+            ],
+            "face_count": 1
         },
         {
             "id": "1_koYxZwlM1jNgMy25DHkmWL_vk_ENBNt",
@@ -2059,7 +2087,8 @@
                 true,
                 false,
                 true
-            ]
+            ],
+            "face_count": 3
         },
         {
             "id": "1T4_1ri866kLR4sWjw-llAdvdwsM-GJZR",
@@ -2130,7 +2159,8 @@
                 true,
                 false,
                 true
-            ]
+            ],
+            "face_count": 2
         },
         {
             "id": "1X9UfDVu3-BBcOz97JBm_WlYjqV0vDoJ_",
@@ -2201,7 +2231,8 @@
                 false,
                 false,
                 true
-            ]
+            ],
+            "face_count": 3
         },
         {
             "id": "1V_vBcZQGnIh7K2x_QmW0w0H9I0DdJeT8",
@@ -2272,7 +2303,8 @@
                 false,
                 true,
                 true
-            ]
+            ],
+            "face_count": 1
         },
         {
             "id": "1R9y4bc4paoMZaprGWa_O78uYzFlmwYd_",
@@ -2343,7 +2375,8 @@
                 false,
                 false,
                 false
-            ]
+            ],
+            "face_count": 2
         },
         {
             "id": "1G0SiQajA6iU9WHTnaVKpYx53_WibGmc_",
@@ -2414,7 +2447,8 @@
                 true,
                 true,
                 true
-            ]
+            ],
+            "face_count": 3
         },
         {
             "id": "1Q4nqKq7OYojzGOiikZXAKSd-uTsToUJV",
@@ -2485,7 +2519,8 @@
                 true,
                 true,
                 true
-            ]
+            ],
+            "face_count": 1
         },
         {
             "id": "1CIre2zqZQzSm92JlrD0BXTFVfKS7SvXw",
@@ -2556,7 +2591,8 @@
                 false,
                 false,
                 false
-            ]
+            ],
+            "face_count": 2
         },
         {
             "id": "1grsUH1t8l5Ir-MmrdosINs5cthBrBObw",
@@ -2627,7 +2663,8 @@
                 false,
                 false,
                 false
-            ]
+            ],
+            "face_count": 1
         },
         {
             "id": "1IgbSZ7LKTvrNOVuziWqSSmEkZZBQfdS3",
@@ -2698,7 +2735,8 @@
                 false,
                 false,
                 false
-            ]
+            ],
+            "face_count": 3
         },
         {
             "id": "1I21qfG8cVEGMZDJMCgEdIzeYcIim1Uy7",
@@ -2769,7 +2807,8 @@
                 false,
                 false,
                 false
-            ]
+            ],
+            "face_count": 2
         },
         {
             "id": "1Fo06WsjeDPqa_vc75QPIYhkdad0nz7_f",
@@ -2840,7 +2879,8 @@
                 false,
                 false,
                 false
-            ]
+            ],
+            "face_count": 1
         },
         {
             "id": "1hoC0l-ToX0-I00zhYxkWdYqXoU6MGO89",
@@ -2911,7 +2951,8 @@
                 false,
                 false,
                 false
-            ]
+            ],
+            "face_count": 2
         },
         {
             "id": "1DMn1aH8tNlQmZdSYvffa1KgpN1y2H0ek",
@@ -2982,7 +3023,8 @@
                 false,
                 false,
                 true
-            ]
+            ],
+            "face_count": 1
         },
         {
             "id": "1r_NUsZ6jfjO82fO3UBJ7Rh0pbNLA_uln",
@@ -3053,7 +3095,8 @@
                 false,
                 false,
                 false
-            ]
+            ],
+            "face_count": 3
         },
         {
             "id": "1fLD4knPF7WIDnL6dhPrbDUoMBO0kMPpt",
@@ -3124,7 +3167,8 @@
                 false,
                 true,
                 true
-            ]
+            ],
+            "face_count": 3
         },
         {
             "id": "1fPegmD90d5l-GD2Y3r2V2AzvoJKEVjkq",
@@ -3195,7 +3239,8 @@
                 false,
                 true,
                 true
-            ]
+            ],
+            "face_count": 2
         },
         {
             "id": "1SDlvyD5gil1DXLv0axo_ZMq5Ojhy-n_Y",
@@ -3266,7 +3311,8 @@
                 true,
                 true,
                 true
-            ]
+            ],
+            "face_count": 3
         },
         {
             "id": "1ElxH0zvc3H4Qm8b5ELJrqEK0z835b-Wg",
@@ -3337,7 +3383,8 @@
                 false,
                 false,
                 false
-            ]
+            ],
+            "face_count": 2
         },
         {
             "id": "1nkpuDpAy7GqnO2Y-7EvmV6hxTUHU0Z99",
@@ -3408,7 +3455,8 @@
                 false,
                 false,
                 false
-            ]
+            ],
+            "face_count": 2
         },
         {
             "id": "1SlsCdWheDJ1sL8dA-mWcK139B4RfS-Vg",
@@ -3479,7 +3527,8 @@
                 true,
                 true,
                 true
-            ]
+            ],
+            "face_count": 1
         },
         {
             "id": "1dYe6bSm_yIYNJN08KtlllVjPqHt0Bom_",
@@ -3550,7 +3599,8 @@
                 false,
                 false,
                 true
-            ]
+            ],
+            "face_count": 3
         }
     ]
 }
