@@ -14,7 +14,12 @@ def download_thumbnail(image_info):
     if not url:
         return None
 
-    response = requests.get(url)
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+    except requests.RequestException as e:
+        print(f"Failed to download {image_info['name']}: {e}")
+        return None
 
     if response.status_code != 200:
         return None

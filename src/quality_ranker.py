@@ -4,15 +4,17 @@ from src.image_loader import download_image
 from src.drive_service import list_images
 from src.thumbnail_loader import download_thumbnail
 from src.face_detector import detect_faces
+from src.candidate_selector import classify_photo
 
 def analyze_image(image, image_info):
-
+    face_count= detect_faces(image)
     analysis = {
         "id": image_info["id"],
         "name": image_info["name"],
         "blur_score": detect_blur(image),
         "hash": average_hash(image),
-        "face_count": detect_faces(image)
+        "face_count": face_count,
+        "photo_type": classify_photo(face_count)
     }
 
     return analysis

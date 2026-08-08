@@ -46,3 +46,12 @@ def keep_sharpest(groups):
         
     return best_images
 
+def classify_photo(face_count):
+    if face_count == 0:
+        return "environment"
+    elif face_count == 1:
+        return "individual"
+    elif face_count <= 5:
+        return "small_group"
+    else:
+        return "crowd"

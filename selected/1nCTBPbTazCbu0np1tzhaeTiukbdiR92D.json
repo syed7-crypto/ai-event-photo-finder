@@ -1,7 +1,7 @@
 {
     "folder_name": "Edu-AIthon pics",
     "folder_id": "1nCTBPbTazCbu0np1tzhaeTiukbdiR92D",
-    "selected_count": 39,
+    "selected_count": 38,
     "images": [
         {
             "id": "1Dy2IKFI1HSpAukMKptKBU87kFHlCfaUn",
@@ -106,12 +106,6 @@
             "face_count": 3
         },
         {
-            "id": "10GcDWeKfoaWeel2EwVnRs00Bxrewmxs7",
-            "name": "IMG20260108170205.jpg",
-            "blur_score": 4989.651637562703,
-            "face_count": 6
-        },
-        {
             "id": "1swGvmEHBeKs9OIryCNYZIm9hZBNM4LMs",
             "name": "IMG20260108170133.jpg",
             "blur_score": 4721.141843832767,
@@ -208,10 +202,10 @@
             "face_count": 3
         },
         {
-            "id": "1fLD4knPF7WIDnL6dhPrbDUoMBO0kMPpt",
-            "name": "IMG_20260108_171913.jpg",
-            "blur_score": 6533.566721557048,
-            "face_count": 3
+            "id": "1fPegmD90d5l-GD2Y3r2V2AzvoJKEVjkq",
+            "name": "IMG_20260108_171915.jpg",
+            "blur_score": 6387.001513863776,
+            "face_count": 2
         },
         {
             "id": "1SDlvyD5gil1DXLv0axo_ZMq5Ojhy-n_Y",

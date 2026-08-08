@@ -72,7 +72,8 @@
                 false,
                 false
             ],
-            "face_count": 2
+            "face_count": 2,
+            "photo_type": "small_group"
         },
         {
             "id": "1ZrR2jPilLpV7Kif-SGAn21saaLd7nQx2",
@@ -144,7 +145,8 @@
                 false,
                 false
             ],
-            "face_count": 2
+            "face_count": 2,
+            "photo_type": "small_group"
         },
         {
             "id": "1JJsx50MwVMbK4jhKaU3ZJoU7r7NzepDX",
@@ -216,7 +218,8 @@
                 false,
                 true
             ],
-            "face_count": 1
+            "face_count": 1,
+            "photo_type": "individual"
         },
         {
             "id": "1_1Cjhs8l5zlgN0ZRtfkUFPPh8kQ2fsD2",
@@ -288,7 +291,8 @@
                 false,
                 true
             ],
-            "face_count": 3
+            "face_count": 3,
+            "photo_type": "small_group"
         },
         {
             "id": "1OZ713En9dDezuAzw0kl95qY5DSTYS4A5",
@@ -360,7 +364,8 @@
                 false,
                 true
             ],
-            "face_count": 4
+            "face_count": 4,
+            "photo_type": "small_group"
         },
         {
             "id": "1s-zDpyi2dBE2S9q937w48Pv31o2bQBI9",
@@ -432,7 +437,8 @@
                 false,
                 false
             ],
-            "face_count": 4
+            "face_count": 4,
+            "photo_type": "small_group"
         },
         {
             "id": "1pJP17biMduWq3gA7SW1yE3JUPEbzAMMH",
@@ -504,7 +510,8 @@
                 true,
                 true
             ],
-            "face_count": 5
+            "face_count": 5,
+            "photo_type": "small_group"
         },
         {
             "id": "11EIihbfogzgR71lbM5NYNW5cxLNOiCy0",
@@ -576,7 +583,8 @@
                 true,
                 true
             ],
-            "face_count": 5
+            "face_count": 5,
+            "photo_type": "small_group"
         },
         {
             "id": "1ttlZr2mKLRhmFBDGEcWFbvP8ElV__OaZ",
@@ -648,7 +656,8 @@
                 false,
                 false
             ],
-            "face_count": 3
+            "face_count": 3,
+            "photo_type": "small_group"
         },
         {
             "id": "1ycsoGouYWpSTpL1lI5692D3QXkeRmt6j",
@@ -720,7 +729,8 @@
                 false,
                 true
             ],
-            "face_count": 4
+            "face_count": 4,
+            "photo_type": "small_group"
         },
         {
             "id": "10vVOsGS9BLurugtCS1b1UNTZ3oYVP6mN",
@@ -792,7 +802,8 @@
                 false,
                 true
             ],
-            "face_count": 4
+            "face_count": 4,
+            "photo_type": "small_group"
         },
         {
             "id": "1ghsAxTIjKqKA7QKxFHHO5YUJJfSlwneg",
@@ -864,7 +875,8 @@
                 false,
                 false
             ],
-            "face_count": 5
+            "face_count": 5,
+            "photo_type": "small_group"
         },
         {
             "id": "1gDoQY2UuIKEm7JR2MTvYbzlzGfzqpbL6",
@@ -936,7 +948,8 @@
                 true,
                 false
             ],
-            "face_count": 3
+            "face_count": 3,
+            "photo_type": "small_group"
         },
         {
             "id": "1EVu8t2_gonNo_01Fqq8X6OCD8FhjiERF",
@@ -1008,7 +1021,8 @@
                 true,
                 false
             ],
-            "face_count": 3
+            "face_count": 3,
+            "photo_type": "small_group"
         },
         {
             "id": "1Si0lDQ4t2G-Hjb_C4LZry5cs0OmJpbT5",
@@ -1080,7 +1094,8 @@
                 false,
                 false
             ],
-            "face_count": 7
+            "face_count": 7,
+            "photo_type": "crowd"
         },
         {
             "id": "1CRhXsi4x5z0PgnRBhJxRw_v82v0EqIhY",
@@ -1152,7 +1167,8 @@
                 false,
                 false
             ],
-            "face_count": 6
+            "face_count": 6,
+            "photo_type": "crowd"
         },
         {
             "id": "1pw9c5t_WLyLWtQB_eL5zBXkHKZKpfnaU",
@@ -1224,7 +1240,8 @@
                 false,
                 false
             ],
-            "face_count": 3
+            "face_count": 3,
+            "photo_type": "small_group"
         },
         {
             "id": "11qeraDo14dM4zHFz4EMDjmE8Zors_kh6",
@@ -1296,7 +1313,8 @@
                 false,
                 false
             ],
-            "face_count": 4
+            "face_count": 4,
+            "photo_type": "small_group"
         },
         {
             "id": "1mfAmbu-wLzPYIL6zSxXz8CqWEpZ5O62t",
@@ -1368,7 +1386,8 @@
                 true,
                 true
             ],
-            "face_count": 3
+            "face_count": 3,
+            "photo_type": "small_group"
         },
         {
             "id": "1dfpJWmK0bqDO2BZkRmq3eEgpXf3onZQJ",
@@ -1440,7 +1459,8 @@
                 false,
                 true
             ],
-            "face_count": 6
+            "face_count": 6,
+            "photo_type": "crowd"
         },
         {
             "id": "1qTspQ8a3IVPbkfK-QWqsS-oyl68bKQks",
@@ -1512,7 +1532,8 @@
                 false,
                 true
             ],
-            "face_count": 4
+            "face_count": 4,
+            "photo_type": "small_group"
         },
         {
             "id": "1a0fQbtBnV03vRVnvsWfUI_1KKNXE6UNx",
@@ -1584,7 +1605,8 @@
                 true,
                 true
             ],
-            "face_count": 5
+            "face_count": 5,
+            "photo_type": "small_group"
         },
         {
             "id": "14hlMrtlD9JG9oI-cDGcFCvy-PzpD-u_a",
@@ -1656,79 +1678,8 @@
                 true,
                 true
             ],
-            "face_count": 3
-        },
-        {
-            "id": "10GcDWeKfoaWeel2EwVnRs00Bxrewmxs7",
-            "name": "IMG20260108170205.jpg",
-            "blur_score": 4989.651637562703,
-            "hash": [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                false,
-                false,
-                false,
-                true,
-                true,
-                false,
-                false,
-                false,
-                false,
-                false,
-                true,
-                true,
-                true,
-                false,
-                true,
-                false,
-                true,
-                false,
-                false,
-                true,
-                true,
-                false,
-                false,
-                true,
-                false,
-                false,
-                true,
-                true,
-                true,
-                true,
-                false,
-                false,
-                false,
-                true,
-                true,
-                false,
-                false,
-                false,
-                false,
-                true,
-                true,
-                true,
-                true,
-                false
-            ],
-            "face_count": 6
+            "face_count": 3,
+            "photo_type": "small_group"
         },
         {
             "id": "1swGvmEHBeKs9OIryCNYZIm9hZBNM4LMs",
@@ -1800,7 +1751,8 @@
                 false,
                 true
             ],
-            "face_count": 3
+            "face_count": 3,
+            "photo_type": "small_group"
         },
         {
             "id": "1iI-0_YYikhTe7RYFXwEL7qE12OHLcZPu",
@@ -1872,7 +1824,8 @@
                 true,
                 false
             ],
-            "face_count": 5
+            "face_count": 5,
+            "photo_type": "small_group"
         },
         {
             "id": "1JJmwzKM7Jzak8-fsvIPgwyGt8yfGLo-g",
@@ -1944,7 +1897,8 @@
                 false,
                 false
             ],
-            "face_count": 3
+            "face_count": 3,
+            "photo_type": "small_group"
         },
         {
             "id": "1z6Q1_Y-R7vfRbGNREBc_Onez6Yd1SiJX",
@@ -2016,7 +1970,8 @@
                 false,
                 true
             ],
-            "face_count": 1
+            "face_count": 1,
+            "photo_type": "individual"
         },
         {
             "id": "1_koYxZwlM1jNgMy25DHkmWL_vk_ENBNt",
@@ -2088,7 +2043,8 @@
                 false,
                 true
             ],
-            "face_count": 3
+            "face_count": 3,
+            "photo_type": "small_group"
         },
         {
             "id": "1T4_1ri866kLR4sWjw-llAdvdwsM-GJZR",
@@ -2160,7 +2116,8 @@
                 false,
                 true
             ],
-            "face_count": 2
+            "face_count": 2,
+            "photo_type": "small_group"
         },
         {
             "id": "1X9UfDVu3-BBcOz97JBm_WlYjqV0vDoJ_",
@@ -2232,7 +2189,8 @@
                 false,
                 true
             ],
-            "face_count": 3
+            "face_count": 3,
+            "photo_type": "small_group"
         },
         {
             "id": "1V_vBcZQGnIh7K2x_QmW0w0H9I0DdJeT8",
@@ -2304,7 +2262,8 @@
                 true,
                 true
             ],
-            "face_count": 1
+            "face_count": 1,
+            "photo_type": "individual"
         },
         {
             "id": "1R9y4bc4paoMZaprGWa_O78uYzFlmwYd_",
@@ -2376,7 +2335,8 @@
                 false,
                 false
             ],
-            "face_count": 2
+            "face_count": 2,
+            "photo_type": "small_group"
         },
         {
             "id": "1G0SiQajA6iU9WHTnaVKpYx53_WibGmc_",
@@ -2448,7 +2408,8 @@
                 true,
                 true
             ],
-            "face_count": 3
+            "face_count": 3,
+            "photo_type": "small_group"
         },
         {
             "id": "1Q4nqKq7OYojzGOiikZXAKSd-uTsToUJV",
@@ -2520,7 +2481,8 @@
                 true,
                 true
             ],
-            "face_count": 1
+            "face_count": 1,
+            "photo_type": "individual"
         },
         {
             "id": "1CIre2zqZQzSm92JlrD0BXTFVfKS7SvXw",
@@ -2592,7 +2554,8 @@
                 false,
                 false
             ],
-            "face_count": 2
+            "face_count": 2,
+            "photo_type": "small_group"
         },
         {
             "id": "1grsUH1t8l5Ir-MmrdosINs5cthBrBObw",
@@ -2664,7 +2627,8 @@
                 false,
                 false
             ],
-            "face_count": 1
+            "face_count": 1,
+            "photo_type": "individual"
         },
         {
             "id": "1IgbSZ7LKTvrNOVuziWqSSmEkZZBQfdS3",
@@ -2736,7 +2700,8 @@
                 false,
                 false
             ],
-            "face_count": 3
+            "face_count": 3,
+            "photo_type": "small_group"
         },
         {
             "id": "1I21qfG8cVEGMZDJMCgEdIzeYcIim1Uy7",
@@ -2808,7 +2773,8 @@
                 false,
                 false
             ],
-            "face_count": 2
+            "face_count": 2,
+            "photo_type": "small_group"
         },
         {
             "id": "1Fo06WsjeDPqa_vc75QPIYhkdad0nz7_f",
@@ -2880,7 +2846,8 @@
                 false,
                 false
             ],
-            "face_count": 1
+            "face_count": 1,
+            "photo_type": "individual"
         },
         {
             "id": "1hoC0l-ToX0-I00zhYxkWdYqXoU6MGO89",
@@ -2952,7 +2919,8 @@
                 false,
                 false
             ],
-            "face_count": 2
+            "face_count": 2,
+            "photo_type": "small_group"
         },
         {
             "id": "1DMn1aH8tNlQmZdSYvffa1KgpN1y2H0ek",
@@ -3024,7 +2992,8 @@
                 false,
                 true
             ],
-            "face_count": 1
+            "face_count": 1,
+            "photo_type": "individual"
         },
         {
             "id": "1r_NUsZ6jfjO82fO3UBJ7Rh0pbNLA_uln",
@@ -3096,79 +3065,8 @@
                 false,
                 false
             ],
-            "face_count": 3
-        },
-        {
-            "id": "1fLD4knPF7WIDnL6dhPrbDUoMBO0kMPpt",
-            "name": "IMG_20260108_171913.jpg",
-            "blur_score": 6533.566721557048,
-            "hash": [
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                false,
-                true,
-                true,
-                true,
-                false,
-                true,
-                true,
-                false,
-                true,
-                false,
-                false,
-                false,
-                false,
-                false,
-                true,
-                true,
-                false,
-                true,
-                true,
-                false,
-                false,
-                true,
-                true,
-                false,
-                false,
-                true,
-                true,
-                true,
-                true,
-                true,
-                true,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                true,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                true,
-                true
-            ],
-            "face_count": 3
+            "face_count": 3,
+            "photo_type": "small_group"
         },
         {
             "id": "1fPegmD90d5l-GD2Y3r2V2AzvoJKEVjkq",
@@ -3240,7 +3138,8 @@
                 true,
                 true
             ],
-            "face_count": 2
+            "face_count": 2,
+            "photo_type": "small_group"
         },
         {
             "id": "1SDlvyD5gil1DXLv0axo_ZMq5Ojhy-n_Y",
@@ -3312,7 +3211,8 @@
                 true,
                 true
             ],
-            "face_count": 3
+            "face_count": 3,
+            "photo_type": "small_group"
         },
         {
             "id": "1ElxH0zvc3H4Qm8b5ELJrqEK0z835b-Wg",
@@ -3384,7 +3284,8 @@
                 false,
                 false
             ],
-            "face_count": 2
+            "face_count": 2,
+            "photo_type": "small_group"
         },
         {
             "id": "1nkpuDpAy7GqnO2Y-7EvmV6hxTUHU0Z99",
@@ -3456,7 +3357,8 @@
                 false,
                 false
             ],
-            "face_count": 2
+            "face_count": 2,
+            "photo_type": "small_group"
         },
         {
             "id": "1SlsCdWheDJ1sL8dA-mWcK139B4RfS-Vg",
@@ -3528,7 +3430,8 @@
                 true,
                 true
             ],
-            "face_count": 1
+            "face_count": 1,
+            "photo_type": "individual"
         },
         {
             "id": "1dYe6bSm_yIYNJN08KtlllVjPqHt0Bom_",
@@ -3600,7 +3503,8 @@
                 false,
                 true
             ],
-            "face_count": 3
+            "face_count": 3,
+            "photo_type": "small_group"
         }
     ]
 }
